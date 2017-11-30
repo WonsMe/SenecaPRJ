@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Web;
+
+namespace WebApiSample.Models
+{
+    public class Title
+    {
+        /*
+         * Emperor/Empress
+         * King/Queen
+         * Duke/Duchess
+         * Prince/Princess
+         * Lord/Lady
+         */
+
+        public int Id { get; set; }
+
+        [Required, StringLength(100)]
+        public string Name { get; set; }
+    }
+}

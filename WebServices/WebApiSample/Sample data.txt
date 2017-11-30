@@ -1,0 +1,21 @@
+{
+  "Name": "Emperor"
+}
+
+Email=dev@example.com&Password=Password123!&ConfirmPassword=Password123!&Username=Wonho&Gender=M
+Content-Type: application/json; charset=utf-8
+Authorization: Bearer 6LAuFZFjwyvhyo-MyK7SGDZu4jfv49RgZtB0oQ3NSM4M3UbpALS6Bw7BHHy1Td5f70vXDUXDyaj8l8m-zIfcFN3lglm79UaC_X_4ZmgTl1mFR-JChenDo4qk_ttx5RGZhH3kEzbyKplJMUFN6IcY9LD-geLEU1NGPwj4r3zC1EQzvfo73SWNAeUinKZSca04l5_b9QMBXN8DxDnJxQOrN59QSozXZKzhAV5vjsochen38TV-znPYThFyku3j1ecJE2y-EpDckrobzCnwJvbKES-x8-zFz8_whbFO7YZeVa4QRJOg0qlT159XSrHioFN5s8tZLtV6vqMdds7lucjA0uxKHlX9s_39Om4cc4IGPUcLHS6_WCFyxzgJW0gRif6oEOh9mhbYGgaiFoeg85rHXLMnbRM_ST77kVX2qlbcpjdg1TkkejfyfsKqOryIITm_xYrnjkWPu36u5kYIjRBpW_Dd9U8kXfmuDBqk-ICBtFs
+
+
+
+- Register
+Content-Type: application/x-www-form-urlencoded
+Email=emp@example.com&Password=Password123!&ConfirmPassword=Password123!&Username=John&Gender=M
+
+- Token
+Content-Type: application/x-www-form-urlencoded
+grant_type=password&username=dev@example.com&password=Password123!
+
+- Access
+Content-Type: application/json; charset=utf-8
+Authorization: Bearer 0E-ZTKGdtSvLwRBqgDDjTKp...
