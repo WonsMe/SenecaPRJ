@@ -1,8 +1,0 @@
-- URL
-http://senecaprj.azurewebsites.net
-
-
-- Database
-senecaprj_db
-senecaprjdbserver (prj / rhQQ5773)
-
